@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740330073419
+  login: 1740330057134
+money: '0'
+last-account-name: Firesadjnsad
+lastlocation:
+  world: 942ea46f-ab5a-41a4-ad9a-d87d18f835c9
+  world-name: world
+  x: 97.5939537638057
+  y: 98.0
+  z: 172.52600283833635
+  yaw: -88.94996643066406
+  pitch: 89.82177734375
+logoutlocation:
+  world: 942ea46f-ab5a-41a4-ad9a-d87d18f835c9
+  world-name: world
+  x: 98.14240017757663
+  y: 16.48386613569485
+  z: 171.9494423157093
+  yaw: -140.81358337402344
+  pitch: 84.29678344726562

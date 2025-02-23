@@ -3,6 +3,6 @@
     "uuid": "64172f8c-c2c8-375a-b63b-fc366f7f9901",
     "name": "FiredangerFN",
     "level": 4,
-    "bypassesPlayerLimit": false
+    "bypassesPlayerLimit": true
   }
 ]
