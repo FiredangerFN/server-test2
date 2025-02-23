@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "83878560-dba1-3e6c-9beb-a04129503562",
+    "name": "Fdasdadad",
+    "created": "2025-02-23 19:32:44 +0000",
+    "source": "(You just lost the game)",
+    "expires": "forever",
+    "reason": "Death in Hardcore"
+  }
+]

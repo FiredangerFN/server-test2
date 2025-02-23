@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1740343944895
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740345993695
+  login: 1740345983218
+money: '0'
+lastlocation:
+  world: 4f281733-4c6d-435a-8173-72bcc127eada
+  world-name: SuperiorWorld
+  x: 600.9228761071696
+  y: 100.0
+  z: 0.49977450487589126
+  yaw: -90.07115173339844
+  pitch: 15.177083969116211
+logoutlocation:
+  world: ae9399ae-b344-43ab-8335-782e4512fceb
+  world-name: world
+  x: -163.66160575972592
+  y: 52.0
+  z: 311.3246505222736
+  yaw: -266.2843017578125
+  pitch: 18.709808349609375
+last-account-name: FiredangerFN

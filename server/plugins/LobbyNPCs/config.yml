@@ -1,0 +1,9 @@
+PERMISSION_NPC_CREATE: lobbynpc.create
+PERMISSION_NPC_REMOVE: lobbynpc.remove
+PERMISSION_SETUP: lobbynpc.setup
+PERMISSION_RELOAD: lobbynpc.reload
+PERMISSION_INFO: lobbynpc.info
+NO_PERMISSION: '&cInsufficient permission.'
+PREFIX: '&eLobbyNPCs &8| '
+connectingMessage: '&aConnecting to server ...'
+NPC_COOLDOWN: 1000

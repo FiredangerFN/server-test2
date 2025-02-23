@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740341506373
+  login: 1740341248875
+money: '0'
+last-account-name: Fdasdadad
+lastlocation:
+  world: 942ea46f-ab5a-41a4-ad9a-d87d18f835c9
+  world-name: world
+  x: 0.5
+  y: 60.0
+  z: -18.5
+  yaw: -180.02317810058594
+  pitch: 90.0
+logoutlocation:
+  world: 942ea46f-ab5a-41a4-ad9a-d87d18f835c9
+  world-name: world
+  x: 1.067101210897926
+  y: 60.0
+  z: -27.922887054688836
+  yaw: -207.2916717529297
+  pitch: 16.571102142333984

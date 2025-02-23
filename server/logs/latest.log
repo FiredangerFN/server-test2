@@ -1,249 +1,688 @@
-[17:05:59] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[17:05:59] [Server thread/INFO]: Loading properties
-[17:05:59] [Server thread/INFO]: Default game type: ADVENTURE
-[17:05:59] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[17:06:00] [Server thread/INFO]: Debug logging is disabled
-[17:06:00] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[17:06:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:14:47] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[19:14:47] [Server thread/INFO]: Loading properties
+[19:14:47] [Server thread/INFO]: Default game type: ADVENTURE
+[19:14:48] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[19:14:48] [Server thread/INFO]: Debug logging is disabled
+[19:14:48] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[19:14:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[17:06:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:06:00] [Server thread/INFO]: Data value allowed items: 
-[17:06:00] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[19:14:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:14:48] [Server thread/INFO]: Data value allowed items: 
+[19:14:48] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[17:06:00] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[19:14:48] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[17:06:00] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[19:14:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[17:06:00] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[19:14:48] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[17:06:00] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[19:14:48] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[17:06:00] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[19:14:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[17:06:00] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[19:14:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[17:06:00] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[19:14:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[17:06:00] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[19:14:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[17:06:00] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[19:14:48] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[17:06:00] [Server thread/INFO]: Generating keypair
-[17:06:00] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[17:06:00] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[17:06:00] [Server thread/INFO]: Using default channel type
-[17:06:00] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[17:06:00] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[17:06:00] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[17:06:00] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[17:06:00] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
-[17:06:00] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
-[17:06:00] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.20.1
-[17:06:00] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
-[17:06:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:06:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:06:00] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[17:06:00] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[17:06:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:06:00] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[17:06:00] [Server thread/INFO]: Preparing level "world"
-[17:06:00] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:06:00] [Server thread/INFO]: Mob Spawn Range: 4
-[17:06:00] [Server thread/INFO]: Anti X-Ray: true
-[17:06:00] [Server thread/INFO]: 	Engine Mode: 1
-[17:06:00] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:06:00] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:06:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:06:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:06:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:06:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:06:00] [Server thread/INFO]: Random Lighting Updates: false
-[17:06:00] [Server thread/INFO]: Structure Info Saving: true
-[17:06:00] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:06:00] [Server thread/INFO]: Max Entity Collisions: 8
-[17:06:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:06:00] [Server thread/INFO]: Max TNT Explosions: 100
-[17:06:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:06:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:06:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:06:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:06:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:06:00] [Server thread/INFO]: View Distance: 4
-[17:06:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:06:00] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:06:00] [Server thread/INFO]: Clear tick list: false
-[17:06:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:06:00] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:06:00] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:06:00] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:06:00] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:06:00] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:06:00] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:06:00] [Server thread/INFO]: Water over lava flow speed: 5
-[17:06:00] [Server thread/INFO]: Fix TNT cannons: false
-[17:06:00] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:06:00] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:06:00] [Server thread/INFO]: World async lighting: false
-[17:06:00] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:06:00] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:06:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:06:00] [Server thread/INFO]: Mob Spawn Range: 4
-[17:06:00] [Server thread/INFO]: Anti X-Ray: true
-[17:06:00] [Server thread/INFO]: 	Engine Mode: 1
-[17:06:00] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:06:00] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:06:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:06:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:06:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:06:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:06:00] [Server thread/INFO]: Random Lighting Updates: false
-[17:06:00] [Server thread/INFO]: Structure Info Saving: true
-[17:06:00] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:06:00] [Server thread/INFO]: Max Entity Collisions: 8
-[17:06:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:06:00] [Server thread/INFO]: Max TNT Explosions: 100
-[17:06:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:06:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:06:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:06:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:06:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:06:00] [Server thread/INFO]: View Distance: 4
-[17:06:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:06:00] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:06:00] [Server thread/INFO]: Clear tick list: false
-[17:06:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:06:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:06:00] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:06:00] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:06:00] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:06:00] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:06:00] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:06:00] [Server thread/INFO]: Water over lava flow speed: 5
-[17:06:00] [Server thread/INFO]: Fix TNT cannons: false
-[17:06:00] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:06:00] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:06:00] [Server thread/INFO]: World async lighting: false
-[17:06:00] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:06:00] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:06:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:06:00] [Server thread/INFO]: Mob Spawn Range: 4
-[17:06:00] [Server thread/INFO]: Anti X-Ray: true
-[17:06:00] [Server thread/INFO]: 	Engine Mode: 1
-[17:06:00] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:06:00] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:06:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:06:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:06:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:06:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:06:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:06:00] [Server thread/INFO]: Random Lighting Updates: false
-[17:06:00] [Server thread/INFO]: Structure Info Saving: true
-[17:06:00] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:06:00] [Server thread/INFO]: Max Entity Collisions: 8
-[17:06:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:06:00] [Server thread/INFO]: Max TNT Explosions: 100
-[17:06:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:06:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:06:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:06:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:06:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:06:00] [Server thread/INFO]: View Distance: 4
-[17:06:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:06:00] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:06:00] [Server thread/INFO]: Clear tick list: false
-[17:06:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:06:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:06:00] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:06:00] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:06:00] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:06:00] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:06:00] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:06:00] [Server thread/INFO]: Water over lava flow speed: 5
-[17:06:00] [Server thread/INFO]: Fix TNT cannons: false
-[17:06:00] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:06:00] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:06:00] [Server thread/INFO]: World async lighting: false
-[17:06:00] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:06:00] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:06:00] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7056685022571130614)
-[17:06:01] [Server thread/INFO]: Preparing start region for level 1 (Seed: 1564289176067971860)
-[17:06:01] [Server thread/INFO]: Preparing start region for level 2 (Seed: 1564289176067971860)
-[17:06:01] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[17:06:01] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[19:14:48] [Server thread/INFO]: Generating keypair
+[19:14:48] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[19:14:48] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[19:14:48] [Server thread/INFO]: Using default channel type
+[19:14:48] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[19:14:48] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[19:14:48] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[19:14:48] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[19:14:48] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
+[19:14:48] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
+[19:14:48] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.20.1
+[19:14:48] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
+[19:14:48] [Server thread/INFO]: [PluginLib] Loading PluginLib v1.1-b5
+[19:14:48] [Server thread/INFO]: [LobbyNPCs] Loading LobbyNPCs v1.2-r7
+[19:14:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:14:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:14:48] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[19:14:48] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[19:14:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:14:48] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:14:48] [Server thread/INFO]: Preparing level "world"
+[19:14:48] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:14:48] [Server thread/INFO]: Mob Spawn Range: 4
+[19:14:48] [Server thread/INFO]: Anti X-Ray: true
+[19:14:48] [Server thread/INFO]: 	Engine Mode: 1
+[19:14:48] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:14:48] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:14:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:14:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:14:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:14:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:14:48] [Server thread/INFO]: Random Lighting Updates: false
+[19:14:48] [Server thread/INFO]: Structure Info Saving: true
+[19:14:48] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:14:48] [Server thread/INFO]: Max Entity Collisions: 8
+[19:14:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:14:48] [Server thread/INFO]: Max TNT Explosions: 100
+[19:14:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:14:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:14:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:14:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:14:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:14:48] [Server thread/INFO]: View Distance: 4
+[19:14:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:14:48] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:14:48] [Server thread/INFO]: Clear tick list: false
+[19:14:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:14:48] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:14:48] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[19:14:48] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[19:14:48] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[19:14:48] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[19:14:48] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[19:14:48] [Server thread/INFO]: Water over lava flow speed: 5
+[19:14:48] [Server thread/INFO]: Fix TNT cannons: false
+[19:14:48] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[19:14:48] [Server thread/INFO]: Keep spawn chunk loaded: true
+[19:14:48] [Server thread/INFO]: World async lighting: false
+[19:14:48] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[19:14:48] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[19:14:48] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:14:48] [Server thread/INFO]: Mob Spawn Range: 4
+[19:14:48] [Server thread/INFO]: Anti X-Ray: true
+[19:14:48] [Server thread/INFO]: 	Engine Mode: 1
+[19:14:48] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:14:48] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:14:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:14:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:14:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:14:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:14:48] [Server thread/INFO]: Random Lighting Updates: false
+[19:14:48] [Server thread/INFO]: Structure Info Saving: true
+[19:14:48] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:14:48] [Server thread/INFO]: Max Entity Collisions: 8
+[19:14:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:14:48] [Server thread/INFO]: Max TNT Explosions: 100
+[19:14:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:14:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:14:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:14:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:14:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:14:48] [Server thread/INFO]: View Distance: 4
+[19:14:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:14:48] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:14:48] [Server thread/INFO]: Clear tick list: false
+[19:14:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:14:48] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:14:48] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[19:14:48] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[19:14:48] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[19:14:48] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[19:14:48] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[19:14:48] [Server thread/INFO]: Water over lava flow speed: 5
+[19:14:48] [Server thread/INFO]: Fix TNT cannons: false
+[19:14:48] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[19:14:48] [Server thread/INFO]: Keep spawn chunk loaded: true
+[19:14:48] [Server thread/INFO]: World async lighting: false
+[19:14:48] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[19:14:48] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[19:14:48] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:14:48] [Server thread/INFO]: Mob Spawn Range: 4
+[19:14:48] [Server thread/INFO]: Anti X-Ray: true
+[19:14:48] [Server thread/INFO]: 	Engine Mode: 1
+[19:14:48] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:14:48] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:14:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:14:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:14:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:14:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:14:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:14:48] [Server thread/INFO]: Random Lighting Updates: false
+[19:14:48] [Server thread/INFO]: Structure Info Saving: true
+[19:14:48] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:14:48] [Server thread/INFO]: Max Entity Collisions: 8
+[19:14:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:14:48] [Server thread/INFO]: Max TNT Explosions: 100
+[19:14:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:14:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:14:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:14:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:14:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:14:48] [Server thread/INFO]: View Distance: 4
+[19:14:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:14:48] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:14:48] [Server thread/INFO]: Clear tick list: false
+[19:14:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:14:48] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:14:48] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[19:14:48] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[19:14:48] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[19:14:48] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[19:14:48] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[19:14:48] [Server thread/INFO]: Water over lava flow speed: 5
+[19:14:48] [Server thread/INFO]: Fix TNT cannons: false
+[19:14:48] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[19:14:48] [Server thread/INFO]: Keep spawn chunk loaded: true
+[19:14:48] [Server thread/INFO]: World async lighting: false
+[19:14:48] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[19:14:48] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[19:14:48] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7056685022571130614)
+[19:14:49] [Server thread/INFO]: Preparing start region for level 1 (Seed: 1564289176067971860)
+[19:14:49] [Server thread/INFO]: Preparing start region for level 2 (Seed: 1564289176067971860)
+[19:14:49] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[19:14:49] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[17:06:01] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[19:14:49] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[17:06:01] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[17:06:01] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[17:06:01] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[17:06:02] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:06:02] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[17:06:02] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
-[17:06:02] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
-[17:06:02] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
-[17:06:02] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
-[17:06:02] [Server thread/INFO]: [DeluxeHub] 
-[17:06:02] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
-[17:06:02] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
-[17:06:02] [Server thread/INFO]: [DeluxeHub] 
-[17:06:02] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
-[17:06:02] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_8_R3! Trying to find NMS support
-[17:06:02] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
-[17:06:02] [Server thread/INFO]: [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
-[17:06:02] [Server thread/INFO]: [DeluxeHub] Loaded 13 plugin modules.
-[17:06:02] [Server thread/INFO]: [DeluxeHub] 
-[17:06:02] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 235ms
-[17:06:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[17:06:02] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[17:06:02] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[17:06:02] [Server thread/INFO]: No kits found to migrate.
-[17:06:02] [Server thread/INFO]: Loaded 853 items from items.csv.
-[17:06:02] [Server thread/INFO]: Using locale en
-[17:06:02] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[17:06:02] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[17:06:02] [Server thread/INFO]: Using superperms-based permissions.
-[17:06:02] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
-[17:06:02] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[17:06:02] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[17:06:02] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[17:06:02] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[17:06:02] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[17:06:02] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[17:06:03] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[17:06:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:06:03] [Server thread/INFO]: Done (2.657s)! For help, type "help" or "?"
-[17:06:03] [Server thread/INFO]: Timings Reset
-[17:06:03] [Craft Scheduler Thread - 1/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[17:06:03] [Craft Scheduler Thread - 1/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[17:06:03] [Craft Scheduler Thread - 1/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[17:06:03] [Craft Scheduler Thread - 2/INFO]: §6Fetching version information...
-[17:06:03] [Craft Scheduler Thread - 1/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[17:06:03] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[19:14:49] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[19:14:49] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[19:14:49] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[19:14:50] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:14:50] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[19:14:50] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
+[19:14:50] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[19:14:50] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[19:14:50] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[19:14:50] [Server thread/INFO]: [DeluxeHub] 
+[19:14:50] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
+[19:14:50] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[19:14:50] [Server thread/INFO]: [DeluxeHub] 
+[19:14:50] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[19:14:50] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_8_R3! Trying to find NMS support
+[19:14:50] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
+[19:14:50] [Server thread/INFO]: [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
+[19:14:50] [Server thread/INFO]: [DeluxeHub] Loaded 13 plugin modules.
+[19:14:50] [Server thread/INFO]: [DeluxeHub] 
+[19:14:50] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 293ms
+[19:14:50] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[19:14:50] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[19:14:50] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[19:14:50] [Server thread/INFO]: No kits found to migrate.
+[19:14:50] [Server thread/INFO]: Loaded 853 items from items.csv.
+[19:14:50] [Server thread/INFO]: Using locale en
+[19:14:50] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[19:14:50] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[19:14:50] [Server thread/INFO]: Using superperms-based permissions.
+[19:14:50] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[19:14:50] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[19:14:50] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[19:14:51] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[19:14:51] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[19:14:51] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[19:14:51] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[19:14:51] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[19:14:51] [Server thread/INFO]: [PluginLib] Enabling PluginLib v1.1-b5
+[19:14:51] [Server thread/INFO]: [LobbyNPCs] Enabling LobbyNPCs v1.2-r7
+[19:14:51] [Server thread/INFO]: [LobbyNPCs] Checking for updates ...
 
-[17:06:03] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[19:14:51] [Thread-7/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[19:14:51] [Server thread/INFO]: [LobbyNPCs] No new version found.
 
-[17:06:03] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[19:14:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:14:51] [Server thread/INFO]: Done (3.095s)! For help, type "help" or "?"
+[19:14:51] [Server thread/INFO]: Timings Reset
+[19:14:51] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
+[19:14:51] [Craft Scheduler Thread - 3/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[19:14:51] [Craft Scheduler Thread - 3/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[19:14:51] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
 
+[19:14:51] [Craft Scheduler Thread - 3/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[19:14:51] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[19:14:51] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[19:14:51] [Craft Scheduler Thread - 3/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[19:14:51] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:56438] logged in with entity id 66 at ([world]0.5, 60.0, -18.5)
+[19:14:53] [Server thread/INFO]: [   INFO   ] [LobbyNPCs/NPC loading progress] npcdata.json does not exist. Skipping initialisation
+
+[19:14:56] [Craft Scheduler Thread - 3/INFO]: [AuthMe] FiredangerFN used the wrong password
+[19:14:56] [Server thread/INFO]: FiredangerFN lost connection: §cWrong password!
+[19:14:56] [Server thread/INFO]: - FiredangerFN Disconnected
+[19:14:56] [Server thread/WARN]: handleDisconnection() called twice
+[19:15:10] [Thread-8/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[19:15:10] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:34026] logged in with entity id 67 at ([world]0.5, 60.0, -18.5)
+[19:15:16] [Craft Scheduler Thread - 3/INFO]: [AuthMe] The user FiredangerFN has 6 accounts:
+[19:15:16] [Craft Scheduler Thread - 3/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas.
+[19:15:16] [Craft Scheduler Thread - 3/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[19:15:17] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[19:15:17] [Server thread/INFO]: - FiredangerFN Disconnected
+[19:16:00] [Thread-9/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[19:16:00] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:48686] logged in with entity id 68 at ([world]0.5, 60.0, -18.5)
+[19:16:08] [Craft Scheduler Thread - 0/INFO]: [AuthMe] The user FiredangerFN has 6 accounts:
+[19:16:08] [Craft Scheduler Thread - 0/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas.
+[19:16:08] [Craft Scheduler Thread - 0/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[19:18:09] [Server thread/INFO]: FiredangerFN issued server command: /lobby
+[19:18:24] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc
+[19:18:29] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc create
+[19:18:37] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[19:19:03] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc create
+[19:19:09] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[19:19:23] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:19:32] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:19:41] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[19:19:42] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[19:19:44] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:19:45] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:19:50] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[19:19:50] [Server thread/INFO]: - FiredangerFN Disconnected
+[19:19:54] [Thread-11/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[19:19:54] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:50350] logged in with entity id 70 at ([world]0.5, 60.0, -18.5)
+[19:19:59] [Craft Scheduler Thread - 4/INFO]: [AuthMe] The user FiredangerFN has 6 accounts:
+[19:19:59] [Craft Scheduler Thread - 4/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas.
+[19:19:59] [Craft Scheduler Thread - 4/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[19:20:16] [Server thread/INFO]: FiredangerFN issued server command: /gamemode c
+[19:21:18] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc create
+[19:21:22] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[19:21:36] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:21:55] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:22:03] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[19:22:05] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[19:22:06] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:22:08] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:22:12] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[19:22:12] [Server thread/INFO]: - FiredangerFN Disconnected
+[19:22:15] [Thread-12/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[19:22:15] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:51858] logged in with entity id 74 at ([world]0.5, 60.0, -18.5)
+[19:22:29] [Craft Scheduler Thread - 6/INFO]: [AuthMe] The user FiredangerFN has 6 accounts:
+[19:22:29] [Craft Scheduler Thread - 6/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas.
+[19:22:29] [Craft Scheduler Thread - 6/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[19:24:01] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc remove
+[19:24:13] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc create
+[19:24:17] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[19:24:29] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:26:33] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:26:47] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[19:26:48] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[19:26:51] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:26:53] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:26:58] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[19:26:58] [Server thread/INFO]: - FiredangerFN Disconnected
+[19:27:01] [Thread-13/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[19:27:01] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:50038] logged in with entity id 76 at ([world]0.5, 60.0, -18.5)
+[19:27:08] [Craft Scheduler Thread - 11/INFO]: [AuthMe] The user FiredangerFN has 6 accounts:
+[19:27:08] [Craft Scheduler Thread - 11/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas.
+[19:27:08] [Craft Scheduler Thread - 11/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[19:27:19] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[19:27:19] [Server thread/INFO]: - FiredangerFN Disconnected
+[19:27:23] [Thread-14/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[19:27:23] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:56036] logged in with entity id 77 at ([world]0.5, 60.0, -18.5)
+[19:27:37] [Craft Scheduler Thread - 9/INFO]: [AuthMe] The user FiredangerFN has 6 accounts:
+[19:27:37] [Craft Scheduler Thread - 9/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas.
+[19:27:37] [Craft Scheduler Thread - 9/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[19:27:53] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc create
+[19:27:55] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[19:28:29] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc create
+[19:28:31] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[19:28:44] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:28:56] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:29:15] [Server thread/INFO]: FiredangerFN issued server command: /gamemode c
+[19:29:32] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[19:29:35] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[19:29:37] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:29:39] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[19:29:40] [Server thread/INFO]: FiredangerFN issued server command: /
+[19:29:48] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[19:29:48] [Server thread/INFO]: - FiredangerFN Disconnected
+[19:29:51] [Thread-15/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[19:29:51] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:41304] logged in with entity id 85 at ([world]0.5, 60.0, -18.5)
+[19:29:59] [Craft Scheduler Thread - 12/INFO]: [AuthMe] The user FiredangerFN has 6 accounts:
+[19:29:59] [Craft Scheduler Thread - 12/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas.
+[19:29:59] [Craft Scheduler Thread - 12/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[19:31:17] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[19:31:17] [Server thread/INFO]: - FiredangerFN Disconnected
+[19:31:35] [Thread-16/INFO]: UUID of player Fdasdadad is 83878560-dba1-3e6c-9beb-a04129503562
+[19:31:35] [Server thread/INFO]: Fdasdadad[/[0:0:0:0:0:0:0:1]:33518] logged in with entity id 87 at ([world]0.5, 60.0, -18.5)
+[19:31:49] [Server thread/INFO]: [AuthMe] Fdasdadad registered 0:0:0:0:0:0:0:1
+[19:31:49] [Craft Scheduler Thread - 17/INFO]: [AuthMe] The user Fdasdadad has 7 accounts:
+[19:31:49] [Craft Scheduler Thread - 17/INFO]: [AuthMe] §7firedangerfn_aly, firedangerfn, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, §aFdasdadad§7.
+[19:31:49] [Craft Scheduler Thread - 17/INFO]: [AuthMe] Fdasdadad logged in 0:0:0:0:0:0:0:1
+[19:31:58] [Server thread/INFO]: Fdasdadad lost connection: Disconnected
+[19:31:58] [Server thread/INFO]: - Fdasdadad Disconnected
+[19:32:47] [Thread-17/INFO]: UUID of player Fdasdadad is 83878560-dba1-3e6c-9beb-a04129503562
+[19:32:47] [Server thread/INFO]: Fdasdadad[/[0:0:0:0:0:0:0:1]:47918] logged in with entity id 89 at ([world]0.5, 60.0, -18.5)
+[19:32:55] [Craft Scheduler Thread - 18/INFO]: [AuthMe] The user Fdasdadad has 7 accounts:
+[19:32:55] [Craft Scheduler Thread - 18/INFO]: [AuthMe] §7firedangerfn_aly, firedangerfn, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, §aFdasdadad§7.
+[19:32:55] [Craft Scheduler Thread - 18/INFO]: [AuthMe] Fdasdadad logged in 0:0:0:0:0:0:0:1
+[19:33:02] [Server thread/INFO]: Fdasdadad lost connection: Disconnected
+[19:33:02] [Server thread/INFO]: - Fdasdadad Disconnected
+[19:33:24] [Thread-18/INFO]: UUID of player Fdasdadad is 83878560-dba1-3e6c-9beb-a04129503562
+[19:33:24] [Server thread/INFO]: Fdasdadad[/[0:0:0:0:0:0:0:1]:44156] logged in with entity id 90 at ([world]0.5, 60.0, -18.5)
+[19:33:28] [Craft Scheduler Thread - 18/INFO]: [AuthMe] Fdasdadad used the wrong password
+[19:33:28] [Server thread/INFO]: Fdasdadad lost connection: §cWrong password!
+[19:33:28] [Server thread/INFO]: - Fdasdadad Disconnected
+[19:33:28] [Server thread/WARN]: handleDisconnection() called twice
+[19:33:32] [Thread-19/INFO]: UUID of player Fdasdadad is 83878560-dba1-3e6c-9beb-a04129503562
+[19:33:32] [Server thread/INFO]: Fdasdadad[/[0:0:0:0:0:0:0:1]:34308] logged in with entity id 91 at ([world]0.5, 60.0, -18.5)
+[19:33:37] [Craft Scheduler Thread - 15/INFO]: [AuthMe] The user Fdasdadad has 7 accounts:
+[19:33:37] [Craft Scheduler Thread - 15/INFO]: [AuthMe] §7firedangerfn_aly, firedangerfn, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, §aFdasdadad§7.
+[19:33:37] [Craft Scheduler Thread - 15/INFO]: [AuthMe] Fdasdadad logged in 0:0:0:0:0:0:0:1
+[19:33:40] [Server thread/INFO]: Fdasdadad lost connection: Disconnected
+[19:33:40] [Server thread/INFO]: - Fdasdadad Disconnected
+[19:33:44] [Thread-20/INFO]: UUID of player Fdasdadad is 83878560-dba1-3e6c-9beb-a04129503562
+[19:33:44] [Server thread/INFO]: Fdasdadad[/[0:0:0:0:0:0:0:1]:52920] logged in with entity id 92 at ([world]0.5, 60.0, -18.5)
+[19:33:50] [Craft Scheduler Thread - 15/INFO]: [AuthMe] The user Fdasdadad has 7 accounts:
+[19:33:50] [Craft Scheduler Thread - 15/INFO]: [AuthMe] §7firedangerfn_aly, firedangerfn, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, §aFdasdadad§7.
+[19:33:50] [Craft Scheduler Thread - 15/INFO]: [AuthMe] Fdasdadad logged in 0:0:0:0:0:0:0:1
+[19:34:01] [Server thread/INFO]: Fdasdadad lost connection: Disconnected
+[19:34:01] [Server thread/INFO]: - Fdasdadad Disconnected
+[20:02:04] [Thread-22/INFO]: UUID of player Fdasdadad is 83878560-dba1-3e6c-9beb-a04129503562
+[20:02:04] [Server thread/INFO]: Fdasdadad[/[0:0:0:0:0:0:0:1]:47492] logged in with entity id 93 at ([world]0.5, 60.0, -18.5)
+[20:02:16] [Craft Scheduler Thread - 24/INFO]: [AuthMe] Fdasdadad used the wrong password
+[20:02:16] [Server thread/INFO]: Fdasdadad lost connection: §cWrong password!
+[20:02:16] [Server thread/INFO]: - Fdasdadad Disconnected
+[20:02:16] [Server thread/WARN]: handleDisconnection() called twice
+[20:02:19] [Thread-23/INFO]: UUID of player Fdasdadad is 83878560-dba1-3e6c-9beb-a04129503562
+[20:02:19] [Server thread/INFO]: Fdasdadad[/[0:0:0:0:0:0:0:1]:53626] logged in with entity id 94 at ([world]0.5, 60.0, -18.5)
+[20:02:49] [Server thread/INFO]: Fdasdadad lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
+[20:02:49] [Server thread/INFO]: - Fdasdadad Disconnected
+[20:02:49] [Server thread/WARN]: handleDisconnection() called twice
+[20:02:53] [Thread-24/INFO]: UUID of player Fdasdadad is 83878560-dba1-3e6c-9beb-a04129503562
+[20:02:53] [Server thread/INFO]: Fdasdadad[/[0:0:0:0:0:0:0:1]:40602] logged in with entity id 95 at ([world]0.5, 60.0, -18.5)
+[20:02:57] [Craft Scheduler Thread - 26/INFO]: [AuthMe] Fdasdadad used the wrong password
+[20:02:57] [Server thread/INFO]: Fdasdadad lost connection: §cWrong password!
+[20:02:57] [Server thread/INFO]: - Fdasdadad Disconnected
+[20:02:57] [Server thread/WARN]: handleDisconnection() called twice
+[20:03:01] [Thread-25/INFO]: UUID of player Fdasdadad is 83878560-dba1-3e6c-9beb-a04129503562
+[20:03:01] [Server thread/INFO]: Fdasdadad[/[0:0:0:0:0:0:0:1]:40780] logged in with entity id 96 at ([world]0.5, 60.0, -18.5)
+[20:03:06] [Craft Scheduler Thread - 26/INFO]: [AuthMe] The user Fdasdadad has 7 accounts:
+[20:03:06] [Craft Scheduler Thread - 26/INFO]: [AuthMe] §7firedangerfn_aly, firedangerfn, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, §aFdasdadad§7.
+[20:03:06] [Craft Scheduler Thread - 26/INFO]: [AuthMe] Fdasdadad logged in 0:0:0:0:0:0:0:1
+[20:03:35] [Server thread/INFO]: Fdasdadad lost connection: Disconnected
+[20:03:35] [Server thread/INFO]: - Fdasdadad Disconnected
+[20:04:40] [Thread-26/INFO]: UUID of player Fdasdadad is 83878560-dba1-3e6c-9beb-a04129503562
+[20:04:40] [Server thread/INFO]: Fdasdadad[/[0:0:0:0:0:0:0:1]:39058] logged in with entity id 97 at ([world]0.5, 60.0, -18.5)
+[20:04:46] [Craft Scheduler Thread - 28/INFO]: [AuthMe] The user Fdasdadad has 7 accounts:
+[20:04:46] [Craft Scheduler Thread - 28/INFO]: [AuthMe] §7firedangerfn_aly, firedangerfn, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, §aFdasdadad§7.
+[20:04:46] [Craft Scheduler Thread - 28/INFO]: [AuthMe] Fdasdadad logged in 0:0:0:0:0:0:0:1
+[20:04:57] [Server thread/INFO]: Fdasdadad lost connection: Disconnected
+[20:04:57] [Server thread/INFO]: - Fdasdadad Disconnected
+[20:07:28] [Thread-27/INFO]: UUID of player Fdasdadad is 83878560-dba1-3e6c-9beb-a04129503562
+[20:07:28] [Server thread/INFO]: Fdasdadad[/[0:0:0:0:0:0:0:1]:40552] logged in with entity id 98 at ([world]0.5, 60.0, -18.5)
+[20:07:38] [Craft Scheduler Thread - 29/INFO]: [AuthMe] The user Fdasdadad has 7 accounts:
+[20:07:38] [Craft Scheduler Thread - 29/INFO]: [AuthMe] §7firedangerfn_aly, firedangerfn, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, §aFdasdadad§7.
+[20:07:38] [Craft Scheduler Thread - 29/INFO]: [AuthMe] Fdasdadad logged in 0:0:0:0:0:0:0:1
+[20:11:46] [Server thread/INFO]: Fdasdadad lost connection: Disconnected
+[20:11:46] [Server thread/INFO]: - Fdasdadad Disconnected
+[20:12:17] [Thread-28/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[20:12:17] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:47870] logged in with entity id 99 at ([world]0.5, 60.0, -18.5)
+[20:12:24] [Craft Scheduler Thread - 33/INFO]: [AuthMe] The user FiredangerFN has 7 accounts:
+[20:12:24] [Craft Scheduler Thread - 33/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad.
+[20:12:24] [Craft Scheduler Thread - 33/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[20:12:50] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[20:12:50] [Server thread/INFO]: - FiredangerFN Disconnected
+[20:17:06] [Thread-29/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[20:17:06] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:50092] logged in with entity id 100 at ([world]0.5, 60.0, -18.5)
+[20:17:11] [Craft Scheduler Thread - 36/INFO]: [AuthMe] The user FiredangerFN has 7 accounts:
+[20:17:11] [Craft Scheduler Thread - 36/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad.
+[20:17:11] [Craft Scheduler Thread - 36/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[20:17:24] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[20:17:24] [Server thread/INFO]: - FiredangerFN Disconnected
+[20:19:33] [Thread-30/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[20:19:33] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:45884] logged in with entity id 101 at ([world]0.5, 60.0, -18.5)
+[20:19:39] [Craft Scheduler Thread - 38/INFO]: [AuthMe] The user FiredangerFN has 7 accounts:
+[20:19:39] [Craft Scheduler Thread - 38/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad.
+[20:19:39] [Craft Scheduler Thread - 38/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[20:19:48] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[20:19:48] [Server thread/INFO]: - FiredangerFN Disconnected
+[20:19:56] [Thread-32/INFO]: UUID of player FiredangerFNsad is b5da8c6e-7d49-3f5b-b365-3078e960870b
+[20:19:56] [Server thread/INFO]: FiredangerFNsad[/[0:0:0:0:0:0:0:1]:53042] logged in with entity id 102 at ([world]0.5, 60.0, -18.5)
+[20:20:08] [Server thread/INFO]: [AuthMe] FiredangerFNsad registered 0:0:0:0:0:0:0:1
+[20:20:08] [Craft Scheduler Thread - 37/INFO]: [AuthMe] The user FiredangerFNsad has 8 accounts:
+[20:20:08] [Craft Scheduler Thread - 37/INFO]: [AuthMe] §7firedangerfn_aly, firedangerfn, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, §aFiredangerFNsad§7.
+[20:20:08] [Craft Scheduler Thread - 37/INFO]: [AuthMe] FiredangerFNsad logged in 0:0:0:0:0:0:0:1
+[20:20:19] [Server thread/INFO]: FiredangerFNsad lost connection: Disconnected
+[20:20:19] [Server thread/INFO]: - FiredangerFNsad Disconnected
+[20:21:39] [Thread-33/INFO]: UUID of player FiredangerFNsas is 9d2eac89-6b7b-3c24-83a3-48b0fce79ff4
+[20:21:39] [Server thread/INFO]: FiredangerFNsas[/[0:0:0:0:0:0:0:1]:58614] logged in with entity id 104 at ([world]0.5, 60.0, -18.5)
+[20:21:50] [Server thread/INFO]: [AuthMe] FiredangerFNsas registered 0:0:0:0:0:0:0:1
+[20:21:50] [Craft Scheduler Thread - 40/INFO]: [AuthMe] The user FiredangerFNsas has 9 accounts:
+[20:21:50] [Craft Scheduler Thread - 40/INFO]: [AuthMe] §7firedangerfn_aly, firedangerfn, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, §aFiredangerFNsas§7.
+[20:21:50] [Craft Scheduler Thread - 40/INFO]: [AuthMe] FiredangerFNsas logged in 0:0:0:0:0:0:0:1
+[20:22:01] [Server thread/INFO]: FiredangerFNsas issued server command: /world
+[20:22:01] [Server thread/INFO]: §cFiredangerFNsas §4was denied access to command.
+[20:24:27] [Server thread/INFO]: FiredangerFNsas lost connection: Disconnected
+[20:24:27] [Server thread/INFO]: - FiredangerFNsas Disconnected
+[20:24:44] [Thread-34/INFO]: UUID of player FiredangerFNsas is 9d2eac89-6b7b-3c24-83a3-48b0fce79ff4
+[20:24:44] [Server thread/INFO]: FiredangerFNsas[/[0:0:0:0:0:0:0:1]:48684] logged in with entity id 106 at ([world]0.5, 60.0, -18.5)
+[20:24:49] [Craft Scheduler Thread - 43/INFO]: [AuthMe] FiredangerFNsas used the wrong password
+[20:24:49] [Server thread/INFO]: FiredangerFNsas lost connection: §cWrong password!
+[20:24:49] [Server thread/INFO]: - FiredangerFNsas Disconnected
+[20:24:49] [Server thread/WARN]: handleDisconnection() called twice
+[20:24:59] [Thread-35/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[20:25:00] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:43416] logged in with entity id 107 at ([world]0.5, 60.0, -18.5)
+[20:25:05] [Craft Scheduler Thread - 42/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[20:25:05] [Craft Scheduler Thread - 42/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[20:25:05] [Craft Scheduler Thread - 42/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[20:25:21] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[20:25:21] [Server thread/INFO]: - FiredangerFN Disconnected
+[20:28:57] [Thread-36/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[20:28:57] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:35210] logged in with entity id 108 at ([world]0.5, 60.0, -18.5)
+[20:29:06] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[20:29:06] [Server thread/INFO]: - FiredangerFN Disconnected
+[20:36:55] [Thread-37/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[20:36:55] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:32872] logged in with entity id 109 at ([world]0.5, 60.0, -18.5)
+[20:37:01] [Craft Scheduler Thread - 48/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[20:37:01] [Craft Scheduler Thread - 48/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[20:37:01] [Craft Scheduler Thread - 48/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[20:37:09] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[20:37:09] [Server thread/INFO]: - FiredangerFN Disconnected
+[20:43:26] [Thread-38/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[20:43:26] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:48716] logged in with entity id 110 at ([world]0.5, 60.0, -18.5)
+[20:43:34] [Craft Scheduler Thread - 50/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[20:43:34] [Craft Scheduler Thread - 50/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[20:43:34] [Craft Scheduler Thread - 50/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[20:43:41] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[20:43:41] [Server thread/INFO]: - FiredangerFN Disconnected
+[20:53:39] [Thread-40/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[20:53:39] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:47214] logged in with entity id 111 at ([world]0.5, 60.0, -18.5)
+[20:53:47] [Craft Scheduler Thread - 54/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[20:53:47] [Craft Scheduler Thread - 54/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[20:53:47] [Craft Scheduler Thread - 54/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[20:54:11] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc create
+[20:54:15] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[20:55:02] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[20:56:49] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[20:57:06] [Server thread/INFO]: FiredangerFN issued server command: /gamemode c
+[20:57:32] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[20:57:34] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[20:57:39] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[20:57:44] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[20:57:49] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[20:57:49] [Server thread/INFO]: - FiredangerFN Disconnected
+[20:57:53] [Thread-41/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[20:57:53] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:39084] logged in with entity id 118 at ([world]0.5, 60.0, -18.5)
+[20:58:10] [Craft Scheduler Thread - 57/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[20:58:10] [Craft Scheduler Thread - 57/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[20:58:10] [Craft Scheduler Thread - 57/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[20:58:35] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[20:58:35] [Server thread/INFO]: - FiredangerFN Disconnected
+[20:58:43] [Thread-42/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[20:58:43] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:44976] logged in with entity id 119 at ([world]0.5, 60.0, -18.5)
+[20:58:52] [Craft Scheduler Thread - 58/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[20:58:52] [Craft Scheduler Thread - 58/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[20:58:52] [Craft Scheduler Thread - 58/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[20:59:02] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc
+[20:59:08] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc remove
+[20:59:36] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc
+[20:59:42] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc add
+[20:59:49] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc create
+[20:59:55] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[21:00:19] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc create
+[21:00:23] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[21:00:45] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:00:58] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:01:06] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[21:01:10] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:01:12] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:01:14] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:01:44] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc create
+[21:01:50] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[21:02:06] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:02:17] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:02:36] [Server thread/INFO]: FiredangerFN issued server command: /gamemode c
+[21:02:49] [Server thread/INFO]: FiredangerFN issued server command: /
+[21:02:54] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[21:02:58] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:03:00] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:03:01] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:03:03] [Server thread/INFO]: FiredangerFN issued server command: /
+[21:03:06] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[21:03:06] [Server thread/INFO]: - FiredangerFN Disconnected
+[21:03:10] [Thread-43/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[21:03:10] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:55092] logged in with entity id 123 at ([world]0.5, 60.0, -18.5)
+[21:03:14] [Craft Scheduler Thread - 60/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[21:03:14] [Craft Scheduler Thread - 60/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[21:03:14] [Craft Scheduler Thread - 60/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[21:03:45] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[21:03:45] [Server thread/INFO]: - FiredangerFN Disconnected
+[21:03:52] [Thread-44/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[21:03:52] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:34952] logged in with entity id 124 at ([world]0.5, 60.0, -18.5)
+[21:03:58] [Craft Scheduler Thread - 61/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[21:03:58] [Craft Scheduler Thread - 61/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[21:03:58] [Craft Scheduler Thread - 61/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[21:04:04] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc
+[21:04:09] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc remove
+[21:04:26] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc create
+[21:04:32] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[21:04:45] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:04:59] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:05:14] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[21:05:18] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:05:20] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:05:21] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:06:09] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[21:06:09] [Server thread/INFO]: - FiredangerFN Disconnected
+[21:06:15] [Thread-45/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[21:06:15] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:53108] logged in with entity id 126 at ([world]0.5, 60.0, -18.5)
+[21:06:21] [Craft Scheduler Thread - 64/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[21:06:21] [Craft Scheduler Thread - 64/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[21:06:21] [Craft Scheduler Thread - 64/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[21:06:36] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc remove
+[21:06:47] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc create
+[21:06:50] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[21:07:14] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:07:23] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:07:46] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[21:07:47] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:07:49] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:07:51] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:07:59] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[21:07:59] [Server thread/INFO]: - FiredangerFN Disconnected
+[21:08:03] [Thread-46/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[21:08:03] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:47618] logged in with entity id 128 at ([world]0.5, 60.0, -18.5)
+[21:08:14] [Craft Scheduler Thread - 68/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[21:08:14] [Craft Scheduler Thread - 68/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[21:08:14] [Craft Scheduler Thread - 68/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[21:08:42] [Server thread/INFO]: FiredangerFN issued server command: /gamemode c
+[21:10:56] [Server thread/INFO]: FiredangerFN issued server command: /gamemode s
+[21:11:04] [Server thread/INFO]: FiredangerFN issued server command: /gamemode spectator
+[21:11:27] [Server thread/INFO]: FiredangerFN issued server command: /gamemode c
+[21:11:39] [Server thread/INFO]: FiredangerFN issued server command: /gamemode spectator
+[21:11:58] [Server thread/INFO]: FiredangerFN issued server command: /gamemode c
+[21:12:43] [Server thread/INFO]: FiredangerFN issued server command: /kill @e[r=5]
+[21:13:50] [Async Chat Thread - #10/INFO]: <[0;31;22mFiredangerFN[m> e[m
+
+[21:14:48] [Server thread/INFO]: FiredangerFN issued server command: /? lag
+[21:15:03] [Server thread/INFO]: FiredangerFN issued server command: /lag
+[21:15:42] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[21:15:42] [Server thread/INFO]: - FiredangerFN Disconnected
+[21:15:45] [Thread-47/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[21:15:45] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:55448] logged in with entity id 130 at ([world]0.5, 60.0, -18.5)
+[21:16:15] [Server thread/INFO]: FiredangerFN lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
+[21:16:15] [Server thread/INFO]: - FiredangerFN Disconnected
+[21:16:15] [Server thread/WARN]: handleDisconnection() called twice
+[21:16:18] [Thread-48/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[21:16:18] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:52310] logged in with entity id 131 at ([world]0.5, 60.0, -18.5)
+[21:16:24] [Craft Scheduler Thread - 70/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[21:16:24] [Craft Scheduler Thread - 70/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[21:16:24] [Craft Scheduler Thread - 70/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[21:21:11] [Server thread/INFO]: FiredangerFN issued server command: /clear
+[21:21:14] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[21:21:14] [Server thread/INFO]: - FiredangerFN Disconnected
+[21:21:16] [Thread-50/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[21:21:17] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:49956] logged in with entity id 132 at ([world]0.5, 60.0, -18.5)
+[21:21:23] [Craft Scheduler Thread - 76/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[21:21:23] [Craft Scheduler Thread - 76/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[21:21:23] [Craft Scheduler Thread - 76/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[21:21:29] [Server thread/INFO]: FiredangerFN issued server command: /setspawn
+[21:21:35] [Server thread/INFO]: FiredangerFN issued server command: /setworldspawn
+[21:21:35] [Server thread/INFO]: [FiredangerFN: Set the world spawn point to (0, 60, -19)]
+[21:21:58] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[21:21:58] [Server thread/INFO]: - FiredangerFN Disconnected
+[21:22:27] [Thread-51/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[21:22:27] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:38608] logged in with entity id 133 at ([world]0.5, 60.0, -18.5)
+[21:22:38] [Craft Scheduler Thread - 77/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[21:22:38] [Craft Scheduler Thread - 77/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[21:22:38] [Craft Scheduler Thread - 77/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[21:22:56] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc remove
+[21:23:14] [Server thread/INFO]: FiredangerFN issued server command: /lobbynpc create
+[21:23:20] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[21:23:28] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:23:38] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:23:52] [Server thread/INFO]: FiredangerFN issued server command: /gamemode c
+[21:24:21] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice yes
+[21:24:23] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:24:26] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:24:29] [Server thread/INFO]: FiredangerFN issued server command: /pluginlibchoice no
+[21:24:34] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[21:24:34] [Server thread/INFO]: - FiredangerFN Disconnected
+[21:24:37] [Thread-52/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[21:24:37] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:42538] logged in with entity id 135 at ([world]0.5, 60.0, -18.5)
+[21:24:45] [Craft Scheduler Thread - 80/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[21:24:45] [Craft Scheduler Thread - 80/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[21:24:45] [Craft Scheduler Thread - 80/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[21:25:08] [Server thread/INFO]: FiredangerFN issued server command: /spawn
+[21:25:16] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[21:25:16] [Server thread/INFO]: - FiredangerFN Disconnected
+[21:25:29] [Thread-53/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[21:25:30] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:51896] logged in with entity id 136 at ([world]0.5, 60.0, -18.5)
+[21:25:38] [Craft Scheduler Thread - 78/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[21:25:38] [Craft Scheduler Thread - 78/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[21:25:38] [Craft Scheduler Thread - 78/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[21:25:41] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[21:25:41] [Server thread/INFO]: - FiredangerFN Disconnected
+[21:26:13] [Thread-54/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[21:26:13] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:54920] logged in with entity id 137 at ([world]0.5, 60.0, -18.5)
+[21:26:20] [Craft Scheduler Thread - 81/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[21:26:20] [Craft Scheduler Thread - 81/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[21:26:20] [Craft Scheduler Thread - 81/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[21:26:23] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[21:26:23] [Server thread/INFO]: - FiredangerFN Disconnected
+[21:26:33] [Thread-55/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[21:26:33] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:57476] logged in with entity id 138 at ([world]0.5, 60.0, -18.5)
+[21:26:44] [Craft Scheduler Thread - 78/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[21:26:44] [Craft Scheduler Thread - 78/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[21:26:44] [Craft Scheduler Thread - 78/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[21:26:55] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[21:26:55] [Server thread/INFO]: - FiredangerFN Disconnected
+[21:27:13] [Thread-56/INFO]: UUID of player FiredangerFN is 64172f8c-c2c8-375a-b63b-fc366f7f9901
+[21:27:13] [Server thread/INFO]: FiredangerFN[/[0:0:0:0:0:0:0:1]:33122] logged in with entity id 139 at ([world]0.5, 60.0, -18.5)
+[21:27:19] [Craft Scheduler Thread - 80/INFO]: [AuthMe] The user FiredangerFN has 9 accounts:
+[21:27:19] [Craft Scheduler Thread - 80/INFO]: [AuthMe] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[21:27:19] [Craft Scheduler Thread - 80/INFO]: [AuthMe] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[21:27:25] [Server thread/INFO]: FiredangerFN lost connection: Disconnected
+[21:27:25] [Server thread/INFO]: - FiredangerFN Disconnected

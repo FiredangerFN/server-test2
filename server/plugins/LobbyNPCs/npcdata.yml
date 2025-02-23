@@ -1,0 +1,115 @@
+Location{world=CraftWorld{name=world},x=0:
+  5395052199464461,y=61:
+    0,z=-33:
+      40444487082702,pitch=89:
+        465324,yaw=-1:
+          1157227}c4727ec4-097a-409d-84d8-30eb9932d1c8:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: NETHER_STAR
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: §eServer Selector
+                lore:
+                - §7Right-click to open the server selector!
+                internal: H4sIAAAAAAAA/+NiYOBg4MrIL0lKLPIsSc1l4C9OLSpLLYovTs1JTS7JL2IAAD+emnsiAAAA
+  6491643575208568,y=61:
+    0,z=-33:
+      456825790881254,pitch=0:
+        3525849,yaw=3:
+          0517578E-5}null:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: GRASS
+  6597917792803408,y=61:
+    0,z=-33:
+      56799411858049,pitch=-0:
+        5385425,yaw=-359:
+          318}null:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: GRASS
+  5628393768861348,y=61:
+    0,z=-33:
+      49012351284897,pitch=90:
+        0,yaw=-0:
+          015445961}a0cf63ce-3156-4298-a763-4fd46644d7e9:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: GRASS
+  4949847012309577,y=61:
+    0,z=-33:
+      4629503866159,pitch=89:
+        2871,yaw=-0:
+          38735962}1adb2ecc-7feb-4302-b920-15c990337816:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: GRASS
+  436031085349316,y=61:
+    0,z=-33:
+      60131519611389,pitch=-1:
+        073219,yaw=-0:
+          01543968}53da7564-c254-464a-9c9b-712f9142a8fc:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: DIRT
+Location{world=CraftWorld{name=world},x=-3:
+  5352172277050316,y=61:
+    0,z=-32:
+      6158226203371,pitch=86:
+        613716,yaw=-1:
+          4412497}aee48f3d-f85c-4aa6-8ed5-6a2fb19621fa:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: DIAMOND_SWORD
+  498417579461342,y=61:
+    0,z=-32:
+      4861320971297,pitch=88:
+        21774,yaw=-0:
+          030914307}e6bedd5c-bfb8-4381-92f0-b9a294b4cf45:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: DIAMOND_SWORD
+  3637304078553667,y=61:
+    0,z=-32:
+      36065807663486,pitch=-1:
+        251442,yaw=-9:
+          65509}fd442dc9-fbf3-4e0a-97c5-c936fa4d7be8:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: DIAMOND_SWORD
+Location{world=CraftWorld{name=world},x=4:
+  619409009129392,y=61:
+    0,z=-32:
+      472317111288476,pitch=88:
+        39597,yaw=-358:
+          24866}40ec876f-b7fa-4ae6-a3f9-52dcd1ac1cff:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: TNT
+  550815615968814,y=61:
+    0,z=-32:
+      5104941948555,pitch=-1:
+        073219,yaw=10:
+          143402}41a3b929-8817-42a7-8f8b-ec40fe343b92:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: TNT
+Location{world=CraftWorld{name=world},x=8:
+  448822209737797,y=61:
+    0,z=-31:
+      656107864432023,pitch=86:
+        97017,yaw=-3:
+          06073}6bd54bb9-5a3c-4a19-9117-7fdc2a51c14f:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: WOOD_AXE
+  523084641133881,y=61:
+    0,z=-31:
+      48971422403097,pitch=-1:
+        2514445,yaw=20:
+          12403}90a87220-d7a3-4865-8ad0-97a35034a49f:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: WOOD_AXE

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740337244998
+  login: 1740337231035
+money: '0'
+last-account-name: Firedangsajdiwas
+lastlocation:
+  world: 942ea46f-ab5a-41a4-ad9a-d87d18f835c9
+  world-name: world
+  x: 0.5
+  y: 60.0
+  z: -18.5
+  yaw: -180.02317810058594
+  pitch: 90.0
+logoutlocation:
+  world: 942ea46f-ab5a-41a4-ad9a-d87d18f835c9
+  world-name: world
+  x: 0.39773130997407335
+  y: 60.0
+  z: -18.990266246970354
+  yaw: -191.7860565185547
+  pitch: 0.5308103561401367
