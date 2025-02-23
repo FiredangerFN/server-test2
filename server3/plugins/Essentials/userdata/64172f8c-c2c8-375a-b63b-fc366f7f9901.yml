@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1740268646170
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740275199112
+  login: 1740275087153
+money: '0'
+lastlocation:
+  world: 924678c6-b9e8-4446-9d72-b6feaa420743
+  world-name: world_nether
+  x: -7.5
+  y: 73.0
+  z: 31.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 6570c590-73ae-461c-b9c9-7d214772451e
+  world-name: world
+  x: -137.69999998807907
+  y: 64.0
+  z: 274.7812497796734
+  yaw: -200.5190887451172
+  pitch: -5.524988651275635
+last-account-name: FiredangerFN
