@@ -55,7 +55,6 @@ world-settings:
     despawn-ranges:
       soft: 32
       hard: 128
-    falling-block-height-nerf: 0
     remove-invalid-mob-spawner-tile-entities: true
     player-blocking-damage-multiplier: 0.5
     fast-drain:
@@ -64,6 +63,7 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
+    falling-block-height-nerf: 0
     remove-unloaded:
       enderpearls: true
       tnt-entities: true
@@ -85,11 +85,11 @@ world-settings:
     use-hopper-check: false
     all-chunks-are-slime-chunks: false
     allow-undead-horse-leashing: false
-    container-update-tick-rate: 1
     keep-spawn-loaded: true
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
+    container-update-tick-rate: 1
     portal-search-radius: 128
     disable-thunder: false
     disable-ice-and-snow: false

@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1740346102784
-  login: 1740346045839
+  logout: 1740447936057
+  login: 1740447823283
 money: '0'
 lastlocation:
   world: 6570c590-73ae-461c-b9c9-7d214772451e
@@ -30,9 +30,9 @@ lastlocation:
 logoutlocation:
   world: 6570c590-73ae-461c-b9c9-7d214772451e
   world-name: world
-  x: -147.14119327528633
-  y: 63.0
-  z: 269.3184374356013
-  yaw: -1.4412639141082764
-  pitch: 26.555599212646484
+  x: -132.84469741547068
+  y: 64.0
+  z: 279.6663801574888
+  yaw: -337.2026062011719
+  pitch: 21.565284729003906
 last-account-name: FiredangerFN

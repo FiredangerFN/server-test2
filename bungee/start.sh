@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo java -jar bungee.jar
+sudo java -Xmx1G -Xms1G -jar bungee.jar
 
 exit

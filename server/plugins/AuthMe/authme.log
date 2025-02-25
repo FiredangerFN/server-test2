@@ -1049,3 +1049,164 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
+[02-25 00:50:52]: [FINE] The user FiredangerFN has 9 accounts:
+[02-25 00:50:52]: [FINE] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[02-25 00:50:52]: [FINE] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[02-25 00:52:11]: [FINE] FiredangerFN used the wrong password
+[02-25 00:52:37]: [FINE] The user FiredangerFN has 9 accounts:
+[02-25 00:52:37]: [FINE] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[02-25 00:52:37]: [FINE] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[02-25 00:56:16]: [FINE] The user FiredangerFN has 9 accounts:
+[02-25 00:56:16]: [FINE] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[02-25 00:56:16]: [FINE] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[02-25 00:58:34]: [FINE] The user FiredangerFN has 9 accounts:
+[02-25 00:58:34]: [FINE] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[02-25 00:58:34]: [FINE] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[02-25 01:00:50]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[02-25 01:03:50]: [INFO] SQLite Setup finished
+[02-25 01:03:50]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-25 01:03:50]: [INFO] Hooked successfully into Essentials
+[02-25 01:03:50]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-25 01:03:50]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[02-25 01:03:51]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-25 01:03:51]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-25 01:03:51]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-25 01:03:51]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-25 01:03:51]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02-25 01:04:06]: [FINE] The user FiredangerFN has 9 accounts:
+[02-25 01:04:06]: [FINE] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[02-25 01:04:06]: [FINE] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[02-25 01:12:16]: [FINE] The user FiredangerFN has 9 accounts:
+[02-25 01:12:16]: [FINE] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[02-25 01:12:16]: [FINE] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[02-25 01:17:38]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[02-25 01:17:44]: [INFO] SQLite Setup finished
+[02-25 01:17:44]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-25 01:17:44]: [INFO] Hooked successfully into Essentials
+[02-25 01:17:44]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-25 01:17:44]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[02-25 01:17:45]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-25 01:17:45]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-25 01:17:45]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-25 01:17:45]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-25 01:17:45]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02-25 01:18:23]: [FINE] The user FiredangerFN has 9 accounts:
+[02-25 01:18:23]: [FINE] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[02-25 01:18:23]: [FINE] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[02-25 01:18:25]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[02-25 01:18:36]: [INFO] SQLite Setup finished
+[02-25 01:18:36]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-25 01:18:36]: [INFO] Hooked successfully into Essentials
+[02-25 01:18:36]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-25 01:18:36]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[02-25 01:18:36]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-25 01:18:36]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-25 01:18:36]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-25 01:18:36]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-25 01:18:36]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02-25 01:19:34]: [FINE] The user FiredangerFN has 9 accounts:
+[02-25 01:19:34]: [FINE] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[02-25 01:19:34]: [FINE] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[02-25 01:30:46]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[02-25 01:30:54]: [INFO] SQLite Setup finished
+[02-25 01:30:54]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-25 01:30:54]: [INFO] Hooked successfully into Essentials
+[02-25 01:30:55]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-25 01:30:55]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[02-25 01:30:55]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-25 01:30:55]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-25 01:30:55]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-25 01:30:55]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-25 01:30:55]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02-25 01:33:39]: [FINE] The user FiredangerFN has 9 accounts:
+[02-25 01:33:39]: [FINE] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[02-25 01:33:39]: [FINE] FiredangerFN logged in 0:0:0:0:0:0:0:1
+[02-25 01:41:55]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[02-25 01:43:17]: [INFO] SQLite Setup finished
+[02-25 01:43:17]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-25 01:43:17]: [INFO] Hooked successfully into Essentials
+[02-25 01:43:17]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-25 01:43:18]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[02-25 01:43:18]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-25 01:43:18]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-25 01:43:18]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-25 01:43:18]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-25 01:43:18]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02-25 01:43:32]: [FINE] The user FiredangerFN has 9 accounts:
+[02-25 01:43:32]: [FINE] §7firedangerfn_aly, §aFiredangerFN§7, sajndijawasd, sajndijawasdd, firesadjnsad, firedangsajdiwas, fdasdadad, firedangerfnsad, firedangerfnsas.
+[02-25 01:43:32]: [FINE] FiredangerFN logged in 0:0:0:0:0:0:0:1

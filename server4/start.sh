@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo java -jar server.jar
+sudo java -Xmx1G -Xms1G -jar server.jar
 
 exit

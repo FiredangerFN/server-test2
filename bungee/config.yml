@@ -59,7 +59,7 @@ ip_forward: true
 network_compression_threshold: 256
 reject_transfers: false
 disabled_commands:
-- server
+- null
 connection_throttle: 4000
 stats: 614623bd-e602-4a2e-b09d-0acb68d88c3e
 connection_throttle_limit: 3
