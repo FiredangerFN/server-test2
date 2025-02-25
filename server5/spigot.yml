@@ -87,7 +87,6 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    nerf-spawner-mobs: false
     mob-spawn-range: 4
     growth:
       cactus-modifier: 100
@@ -108,6 +107,7 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
+    nerf-spawner-mobs: false
     ticks-per:
       hopper-transfer: 8
       hopper-check: 8

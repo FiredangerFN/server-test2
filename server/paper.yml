@@ -35,7 +35,6 @@ world-settings:
       village: true
       flat-bedrock: false
     allow-block-location-tab-completion: true
-    optimize-explosions: false
     mob-spawner-tick-rate: 1
     cache-chunk-maps: false
     tnt-explosion-volume: 4.0
@@ -78,6 +77,7 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
+    optimize-explosions: false
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
