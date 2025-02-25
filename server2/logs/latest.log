@@ -210,3 +210,13 @@
 [01:43:15] [Server thread/INFO]: Done (7.860s)! For help, type "help" or "?"
 [01:43:15] [Server thread/INFO]: Timings Reset
 [01:43:15] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
+[02:01:55] [Server thread/INFO]: Stopping the server
+[02:01:55] [Server thread/INFO]: Stopping server
+[02:01:55] [Server thread/INFO]: Disabling EssentialsSpawn v2.20.1
+[02:01:55] [Server thread/INFO]: Disabling Essentials v2.20.1
+[02:01:55] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[02:01:55] [Server thread/INFO]: Saving players
+[02:01:55] [Server thread/INFO]: Saving worlds
+[02:01:55] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[02:01:55] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[02:01:55] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End

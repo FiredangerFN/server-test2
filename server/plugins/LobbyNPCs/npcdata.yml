@@ -54,6 +54,14 @@ Location{world=CraftWorld{name=world},x=0:
             item:
               ==: org.bukkit.inventory.ItemStack
               type: DIRT
+  38393893162056264,y=61:
+    0,z=-33:
+      61968570111276,pitch=-0:
+        8949935,yaw=-0:
+          5655823}a0a6feda-cb7f-45e0-8d8d-4d3dc8700cbb:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: IRON_PICKAXE
 Location{world=CraftWorld{name=world},x=-3:
   5352172277050316,y=61:
     0,z=-32:
@@ -79,6 +87,22 @@ Location{world=CraftWorld{name=world},x=-3:
             item:
               ==: org.bukkit.inventory.ItemStack
               type: DIAMOND_SWORD
+  41995659999248,y=61:
+    0,z=-32:
+      568121287787996,pitch=89:
+        2871,yaw=-0:
+          030914307}e036985c-ec32-47d4-80d5-faea5699b86d:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: DIAMOND_SWORD
+  6112871375796445,y=61:
+    0,z=-32:
+      590878092438466,pitch=-1:
+        073219,yaw=-9:
+          817844}50a6abd7-beee-46f0-b055-9fff31b7cbb3:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: DIAMOND_SWORD
 Location{world=CraftWorld{name=world},x=4:
   619409009129392,y=61:
     0,z=-32:
@@ -93,6 +117,14 @@ Location{world=CraftWorld{name=world},x=4:
       5104941948555,pitch=-1:
         073219,yaw=10:
           143402}41a3b929-8817-42a7-8f8b-ec40fe343b92:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: TNT
+  648221527140103,y=61:
+    0,z=-31:
+      924947855495716,pitch=-1:
+        073219,yaw=-349:
+          33737}1c4618c6-e1b0-4eeb-a180-608bcae6d02b:
             item:
               ==: org.bukkit.inventory.ItemStack
               type: TNT
@@ -113,3 +145,11 @@ Location{world=CraftWorld{name=world},x=8:
             item:
               ==: org.bukkit.inventory.ItemStack
               type: WOOD_AXE
+  668868981425236,y=61:
+    0,z=-31:
+      680834010667244,pitch=-1:
+        073219,yaw=-339:
+          7132}00093b06-584a-40ff-a6d9-592d28925c94:
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              type: COBBLESTONE
